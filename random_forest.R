@@ -10,7 +10,7 @@ set.seed(888)
 #my_dataset <- FetchTimeSeries("gbrate0001", "ih:bl:bcmpukdg index")
 
 # read data manually pasted into a csv file
-my_data0 <- read_csv(file.path("C:", "Users", "ylim","Documents", "uk_reaction_fn", "my_data.csv"), na="NaN")
+my_data0 <- read_csv(file.path("C:", "Users", "ylim","Documents", "uk_reaction_fn", "data", "my_data.csv"), na="NaN")
 head(my_data0)
 
 #arrange date in chronological order
